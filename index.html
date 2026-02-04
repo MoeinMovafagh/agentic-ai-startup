@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agentic AI | Intelligent Enterprise Solutions</title>
+    <meta name="description" content="Leading AI Agent Deployment and Consultancy Services for Modern Enterprises.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Agentic<span class="highlight">AI</span></a>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li class="dropdown">
+                    <a href="#services">Services <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#deployment">AI Agent Deployment</a>
+                        <a href="#infrastructure">Managed Infrastructure</a>
+                        <a href="#consultancy">AI Consultancy</a>
+                    </div>
+                </li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#use-cases">Use Cases</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#insights">Insights</a></li>
+                <li><a href="#contact" class="btn-primary">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-bg-glow"></div>
+        <div class="container hero-content">
+            <h1>The Future of Enterprise is <span class="gradient-text">Agentic</span></h1>
+            <p>Deploy intelligent AI agents that triage, analyze, and solve complex problems autonomously. Elevate your operations with our end-to-end AI platform.</p>
+            <div class="hero-btns">
+                <a href="#contact" class="btn-primary">Get Started</a>
+                <a href="#services" class="btn-secondary">Explore Services</a>
+            </div>
+            
+            <!-- Abstract Visual Representation -->
+            <div class="hero-visual">
+                <div class="floating-card c1"><i class="fas fa-brain"></i> <span>Cognitive Processing</span></div>
+                <div class="floating-card c2"><i class="fas fa-network-wired"></i> <span>Neural Triage</span></div>
+                <div class="floating-card c3"><i class="fas fa-robot"></i> <span>Autonomous Agents</span></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>Comprehensive AI solutions tailored for scalability and performance.</p>
+            </div>
+            <div class="grid-3">
+                <div class="card service-card">
+                    <div class="icon-box"><i class="fas fa-rocket"></i></div>
+                    <h3>AI Agent Deployment</h3>
+                    <p>Seamlessly integrate autonomous agents into your existing workflows to automate decision-making processes.</p>
+                </div>
+                <div class="card service-card">
+                    <div class="icon-box"><i class="fas fa-server"></i></div>
+                    <h3>Managed Infrastructure</h3>
+                    <p>Robust, scalable, and secure infrastructure designed specifically to host and manage high-load AI models.</p>
+                </div>
+                <div class="card service-card">
+                    <div class="icon-box"><i class="fas fa-cogs"></i></div>
+                    <h3>Customizable AI Features</h3>
+                    <p>Tailor-made modules that fit your specific business logic, from natural language processing to predictive analytics.</p>
+                </div>
+                <div class="card service-card">
+                    <div class="icon-box"><i class="fas fa-layer-group"></i></div>
+                    <h3>End-to-End Platform</h3>
+                    <p>Full-cycle development of your proprietary AI platform, from data ingestion to user-facing interfaces.</p>
+                </div>
+                <div class="card service-card">
+                    <div class="icon-box"><i class="fas fa-user-tie"></i></div>
+                    <h3>AI Consultancy</h3>
+                    <p>Strategic guidance to help you navigate the AI landscape, identifying high-impact use cases for your business.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="section alt-bg">
+        <div class="container">
+            <div class="row items-center">
+                <div class="col-text">
+                    <span class="badge">Flagship Product</span>
+                    <h2>Agentic AI Triage Engine</h2>
+                    <p>Our core product revolutionizes how incoming data and requests are handled. The Triage Engine uses advanced LLMs to categorize, prioritize, and route tickets, medical records, or compliance documents with human-level accuracy.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check-circle"></i> Real-time processing</li>
+                        <li><i class="fas fa-check-circle"></i> 99.9% Classification Accuracy</li>
+                        <li><i class="fas fa-check-circle"></i> Seamless API Integration</li>
+                    </ul>
+                    <a href="#" class="btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="col-visual">
+                    <div class="product-mockup">
+                        <div class="glass-panel">
+                            <div class="mock-header">
+                                <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                            </div>
+                            <div class="mock-body">
+                                <div class="message incoming">
+                                    <strong>Input:</strong> "Patient presenting with severe chest pain..."
+                                </div>
+                                <div class="processing-bar">
+                                    <div class="progress"></div> <span>Analyzing Triage Level...</span>
+                                </div>
+                                <div class="message outgoing">
+                                    <strong>Output:</strong> Priority 1 - Critical (Cardiology)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industry Use Cases -->
+    <section id="use-cases" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Industry Use Cases</h2>
+                <p>Specialized add-ons for vertical-specific challenges.</p>
+            </div>
+            <div class="grid-3">
+                <div class="card case-card">
+                    <h3>Helpdesk Systems</h3>
+                    <p>Automate L1 support tickets, reduce response times, and auto-resolve common queries.</p>
+                </div>
+                <div class="card case-card">
+                    <h3>Patient Intake Triage</h3>
+                    <p>Assist healthcare providers by pre-analyzing patient symptoms and history for faster care.</p>
+                </div>
+                <div class="card case-card">
+                    <h3>Compliance Review</h3>
+                    <p>Rapidly scan legal documents for non-compliance flags and regulatory risks.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About & Insights (Combined for brevity) -->
+    <section id="about" class="section alt-bg">
+        <div class="container">
+            <div class="grid-2">
+                <div class="about-col">
+                    <h2>About Us</h2>
+                    <p>We are a team of AI researchers, engineers, and strategists dedicated to making agentic AI accessible. Our mission is to empower organizations to build their own intelligent workforce.</p>
+                    <div class="links-group">
+                        <a href="#" class="link-item">Meet the Team</a>
+                        <a href="#" class="link-item">Certs & Awards</a>
+                    </div>
+                </div>
+                <div class="insights-col">
+                    <h2>Latest Insights</h2>
+                    <div class="blog-preview">
+                        <article>
+                            <span class="date">Oct 12, 2024</span>
+                            <h4>The Rise of Agentic Workflows</h4>
+                            <a href="#">Read White Paper</a>
+                        </article>
+                        <article>
+                            <span class="date">Sep 28, 2024</span>
+                            <h4>Optimizing LLM Context Windows</h4>
+                            <a href="#">Read Blog</a>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="cta-box">
+                <h2>Ready to Transform Your Business?</h2>
+                <p>Get in touch with our experts to schedule a demo.</p>
+                <form class="contact-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit" class="btn-primary">Contact Us</button>
+                </form>
+            </div>
+            <div class="footer-links">
+                <div class="footer-brand">
+                    AgenticAI &copy; 2024
+                </div>
+                <div class="socials">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
